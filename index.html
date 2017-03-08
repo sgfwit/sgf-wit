@@ -45,8 +45,12 @@
                 <li><a href="about.html">Who Are We?</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Get Involved</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Get Involved<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                   <li><a href="events.html">Events</a></li>
+                   <li><a href="sponsors.html">Sponsorship</a></li></ul>
+                <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
             <!--/.nav-collapse -->
@@ -55,16 +59,34 @@
         </nav>
       </div>
 
-      <div class="container">
+      
         <div class="row">
-          <header class="homepage-header img-responsive"></header>
+          <div class="container">
+            <header class="homepage-header img-responsive"></header>
+          </div>
         </div>
-        <div class="row sub-headline">
-          <h3>Welcome to the home for women across the Ozarks interested in technology.</h3>
+
+        <div class="row green-banner sub-headline">
+          <h3><b>Welcome to the home for women across the Ozarks interested in technology.</b></h3>
+          <a href="#" class="btn btn-lg btn-default btn-join">Join Us</a>
         </div>
-        <div class="row services">
-<!--         learn grow network -->
-        </div>
+
+        <div class="container">
+          <div class="row purpose">
+<!--         learn grow interact -->
+            <div class="col-lg-4">
+              <h3 class="large-white-font">LEARN</h3>
+              <p class="main-text">Our events provide the opportunity to expand your knowledge on new technologies, techniques, and various subjects.</p>
+            </div>
+            <div class="col-lg-4">
+              <h3 class="large-white-font">GROW</h3>
+              <p class="main-text">We are committed to helping expand the number of women in tech by fostering a positive, transparent community in the area and reaching out to youth and sparking interest there.</p>
+            </div>
+            <div class="col-lg-4">
+              <h3 class="large-white-font">INTERACT</h3>
+              <p class="main-text">Here you can find a place to meet other women and network, find collaborators for new ideas and projects, and just talk about tech in a safe environment.</p>
+            </div>
+          </div>
       </div>
 
 

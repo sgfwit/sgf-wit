@@ -33,7 +33,7 @@
 
 #myFooter h5 {
     font-size: 18px;
-    color: white;
+    color: #F5E6E8;
     font-weight: bold;
     margin-top: 30px;
 }
@@ -45,7 +45,7 @@
 }
 
 #myFooter a {
-    color: #d2d1d1;
+    color: #B0C0BC;
     text-decoration: none;
 }
 
@@ -85,8 +85,8 @@
 }
 
 #myFooter .btn {
-    color: white;
-    background-color: #d84b6b;
+    color: #F5E6E8;
+    background-color: #DB3269;
     border-radius: 20px;
     border: none;
     width: 150px;
